@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Help-IN | Pečovatelská služba a sociální poradenství Bruntál</title>
+  <meta name="description" content="Help-IN pomáhá seniorům, osobám se zdravotním postižením a rodinám v okrese Bruntál. Pečovatelská služba, sociální poradenství, dluhové poradenství a kompenzační pomůcky." />
+  <meta name="theme-color" content="#16406f" />
+
+  <meta property="og:title" content="Help-IN | Pečovatelská služba a sociální poradenství Bruntál" />
+  <meta property="og:description" content="Help-IN pomáhá seniorům, osobám se zdravotním postižením a rodinám v okrese Bruntál. Pečovatelská služba, sociální poradenství, dluhové poradenství a kompenzační pomůcky." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://takashitadag.github.io/Help--in/" />
+  <meta property="og:locale" content="cs_CZ" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%2316406f'/%3E%3Ctext x='50' y='62' text-anchor='middle' font-size='42' font-family='Arial' font-weight='700' fill='white'%3EHI%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+  <div class="accessibility-bar">
+  <p>Help-IN • sociální služby v okrese Bruntál</p>
+
+  <div class="top-contact" aria-label="Rychlý kontakt">
+    <a href="tel:+420000000000">📞 +420 000 000 000</a>
+    <a href="mailto:info@help-in.cz">✉️ info@help-in.cz</a>
+  </div>
+
+  <div class="accessibility-actions" aria-label="Nastavení přístupnosti">
+    <button type="button" onclick="decreaseFont()">A−</button>
+    <button type="button" onclick="increaseFont()">A+</button>
+    <button type="button" onclick="toggleSeniorMode()">Senior režim</button>
+    <button type="button" onclick="toggleContrast()">Vysoký kontrast</button>
+  </div>
+</div>
+
+<header class="header">
+  <nav class="nav" aria-label="Hlavní navigace">
+    <a href="index.html" class="logo" aria-label="Help-IN domů">
+      <span>Help</span>-IN
+    </a>
+
+    <button class="mobile-toggle" type="button" onclick="toggleMenu()" aria-label="Otevřít menu">☰</button>
+
+    <div class="menu" id="menu">
+      <a href="index.html">Domů</a>
+      <a href="index.html#sluzby">Služby</a>
+      <a href="o-nas.html">O nás</a>
+      <a href="dokumenty.html">Dokumenty</a>
+      <a href="kariera.html">Kariéra</a>
+      <a href="kontakt.html" class="menu-cta">Kontakt</a>
+    </div>
+  </nav>
+</header>
+
+  <main id="obsah">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Sociální služby Bruntálsko</p>
+
+        <h1>Pomáháme lidem žít doma bezpečně, důstojně a s podporou.</h1>
+
+        <p class="hero-text">
+          Poskytujeme pečovatelskou službu, sociální poradenství, dluhové poradenství
+          a podporu při zajištění kompenzačních pomůcek pro obyvatele okresu Bruntál.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="tel:+420000000000" class="btn primary">📞 Zavolat nám</a>
+          <a href="kontakt.html" class="btn secondary">Potřebuji pomoc</a>
+          <a href="#sluzby" class="btn secondary">Vybrat službu</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <h2>Jak vám můžeme pomoci?</h2>
+
+        <ul>
+          <li>Pomoc seniorům v domácím prostředí</li>
+          <li>Poradenství v těžkých životních situacích</li>
+          <li>Podpora při řešení dluhů a exekucí</li>
+          <li>Informace ke kompenzačním pomůckám</li>
+          <li>Jednoduché spojení se správnou službou</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section class="stats" aria-label="Základní údaje organizace">
+      <div>
+        <strong>300+</strong>
+        <span>klientů</span>
+      </div>
+
+      <div>
+        <strong>25+</strong>
+        <span>zaměstnanců</span>
+      </div>
+
+      <div>
+        <strong>4</strong>
+        <span>hlavní služby</span>
+      </div>
+
+      <div>
+        <strong>Bruntál</strong>
+        <span>a okolní obce</span>
+      </div>
+    </section>
+
+    <section class="section" id="sluzby">
+      <p class="eyebrow">Naše služby</p>
+      <h2>Vyberte službu podle své situace</h2>
+
+      <p class="section-lead">
+        Každá služba má vlastní barvu, aby se návštěvníci na webu jednoduše zorientovali.
+      </p>
+
+      <div class="services">
+        <article class="service service-blue">
+          <div class="service-icon">🏠</div>
+          <h3>Pečovatelská služba</h3>
+          <p>
+            Pomoc seniorům a osobám, které potřebují podporu při každodenním životě doma.
+          </p>
+          <a href="pecovatelska-sluzba.html" class="service-link">Zjistit více</a>
+        </article>
+
+        <article class="service service-green">
+          <div class="service-icon">🤝</div>
+          <h3>Sociální poradenství</h3>
+          <p>
+            Pomoc při řešení náročných životních situací a orientaci v možnostech podpory.
+          </p>
+          <a href="socialni-poradenstvi.html" class="service-link">Zjistit více</a>
+        </article>
+
+        <article class="service service-yellow">
+          <div class="service-icon">📄</div>
+          <h3>Dluhové poradenství</h3>
+          <p>
+            Podpora při řešení dluhů, exekucí, splátek a finanční tísně.
+          </p>
+          <a href="dluhove-poradenstvi.html" class="service-link">Zjistit více</a>
+        </article>
+
+        <article class="service service-red">
+          <div class="service-icon">♿</div>
+          <h3>Kompenzační pomůcky</h3>
+          <p>
+            Informace a pomoc při zajištění potřebných kompenzačních pomůcek.
+          </p>
+          <a href="kompenzacni-pomucky.html" class="service-link">Zjistit více</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <p class="eyebrow">Jak probíhá pomoc</p>
+      <h2>Jednoduchá cesta ke správné službě</h2>
+
+      <div class="steps">
+        <div class="step">
+          <span>1</span>
+          <h3>Ozvěte se nám</h3>
+          <p>Telefonicky, e-mailem nebo přes kontaktní formulář.</p>
+        </div>
+
+        <div class="step">
+          <span>2</span>
+          <h3>Probereme situaci</h3>
+          <p>Společně zjistíme, jakou podporu potřebujete.</p>
+        </div>
+
+        <div class="step">
+          <span>3</span>
+          <h3>Najdeme řešení</h3>
+          <p>Doporučíme vhodnou službu a další konkrétní kroky.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trust-section">
+      <p class="eyebrow">Důvěra</p>
+      <h2>Pomoc, která má lidský rozměr</h2>
+
+      <p class="section-lead">
+        U sociálních služeb je nejdůležitější jistota, srozumitelnost a lidský přístup. Proto web jasně ukazuje, komu pomáháme, jak postupujeme a kam se obrátit.
+      </p>
+
+      <div class="grid-3">
+        <article class="card">
+          <h3>Rodinný přístup</h3>
+          <p>Ke každému člověku přistupujeme individuálně, s respektem a pochopením jeho situace.</p>
+        </article>
+
+        <article class="card">
+          <h3>Pomoc doma</h3>
+          <p>Podporujeme lidi tak, aby mohli co nejdéle zůstat ve známém domácím prostředí.</p>
+        </article>
+
+        <article class="card">
+          <h3>Jasné informace</h3>
+          <p>Pomůžeme vám zorientovat se ve službách, příspěvcích, dluzích i dalších možnostech podpory.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <p class="eyebrow">Časté otázky</p>
+      <h2>Na co se lidé často ptají</h2>
+
+      <div class="faq">
+        <details>
+          <summary>Komu jsou služby určeny?</summary>
+          <p>Seniorům, osobám se zdravotním postižením, rodinám a lidem, kteří potřebují podporu v těžké životní situaci.</p>
+        </details>
+
+        <details>
+          <summary>Působíte jen v Bruntále?</summary>
+          <p>Help-IN pomáhá obyvatelům okresu Bruntál a okolních obcí podle možností konkrétní služby.</p>
+        </details>
+
+        <details>
+          <summary>Pomůžete s dluhy nebo exekucí?</summary>
+          <p>Ano, dluhové poradenství pomáhá s orientací v dluzích, splátkách, exekucích a možnostech řešení.</p>
+        </details>
+
+        <details>
+          <summary>Jak vás nejrychleji kontaktovat?</summary>
+          <p>Nejrychlejší je telefonický kontakt. Můžete také využít e-mail nebo kontaktní formulář.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Přístupnost</p>
+      <h2>Web přehledný i pro seniory</h2>
+
+      <div class="grid-4">
+        <div class="card">
+          <h3>Zvětšení písma</h3>
+          <p>Návštěvník si může text jednoduše zvětšit nebo zmenšit.</p>
+        </div>
+
+        <div class="card">
+          <h3>Senior režim</h3>
+          <p>Větší písmo, větší tlačítka a jednodušší čtení obsahu.</p>
+        </div>
+
+        <div class="card">
+          <h3>Vysoký kontrast</h3>
+          <p>Kontrastní režim pro lepší čitelnost u lidí se zhoršeným zrakem.</p>
+        </div>
+
+        <div class="card">
+          <h3>Mobilní verze</h3>
+          <p>Web je přizpůsobený telefonům, tabletům i počítačům.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <p class="eyebrow">Kariéra</p>
+      <h2>Staňte se součástí týmu Help-IN</h2>
+
+      <p class="section-lead">
+        Práce v sociálních službách má smysl. Pomáhá lidem zvládat každodenní život
+        a zůstat v prostředí, které znají.
+      </p>
+
+      <div class="grid-2">
+        <article class="card">
+          <h3>Pečovatel / pečovatelka</h3>
+          <p>
+            Hledáme empatické lidi, kteří chtějí pomáhat seniorům a osobám v domácím prostředí.
+          </p>
+          <a href="kariera.html" class="btn primary">Zobrazit kariéru</a>
+        </article>
+
+        <article class="card">
+          <h3>Smysluplná práce</h3>
+          <p>
+            Práce v Help-IN stojí na lidském přístupu, respektu a každodenní pomoci lidem.
+          </p>
+          <a href="kontakt.html" class="btn secondary">Mám zájem</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Dokumenty</p>
+      <h2>Důležité informace na jednom místě</h2>
+
+      <div class="documents">
+        <a href="dokumenty.html">Výroční zprávy</a>
+        <a href="gdpr.html">Ochrana osobních údajů</a>
+        <a href="dokumenty.html">Formuláře ke stažení</a>
+        <a href="dokumenty.html">Dokumenty organizace</a>
+      </div>
+    </section>
+
+    <section class="section security">
+      <p class="eyebrow">Bezpečnost a ochrana údajů</p>
+      <h2>Bezpečný provoz webu a ochrana osobních údajů</h2>
+
+      <div class="grid-4">
+        <div class="card">
+          <h3>HTTPS</h3>
+          <p>Zabezpečené spojení mezi návštěvníkem a webem.</p>
+        </div>
+
+        <div class="card">
+          <h3>GDPR</h3>
+          <p>Jasné informace o zpracování osobních údajů u formulářů.</p>
+        </div>
+
+        <div class="card">
+          <h3>Cookies</h3>
+          <p>Souhlas s cookies včetně možnosti odmítnutí a nastavení.</p>
+        </div>
+
+        <div class="card">
+          <h3>Zálohy a aktualizace</h3>
+          <p>Pravidelná technická správa a ochrana webu.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div>
+        <p class="eyebrow">Kontakt</p>
+        <h2>Potřebujete pomoc nebo se chcete poradit?</h2>
+
+        <p>
+          Kontaktujte nás. Pomůžeme vám najít správnou službu nebo další postup.
+        </p>
+
+        <div class="contact-info">
+          <p><strong>Telefon:</strong> <a href="tel:+420000000000">+420 000 000 000</a></p>
+          <p><strong>E-mail:</strong> <a href="mailto:info@help-in.cz">info@help-in.cz</a></p>
+          <p><strong>Působnost:</strong> okres Bruntál</p>
+        </div>
+      </div>
+
+      <form class="contact-form" aria-label="Kontaktní formulář">
+        <label>
+          Jméno a příjmení
+          <input type="text" placeholder="Vaše jméno" />
+        </label>
+
+        <label>
+          Telefon nebo e-mail
+          <input type="text" placeholder="Kontakt na vás" />
+        </label>
+
+        <label>
+          S čím potřebujete pomoci?
+          <textarea placeholder="Krátce popište svou situaci"></textarea>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" />
+          Souhlasím se zpracováním osobních údajů za účelem vyřízení dotazu.
+        </label>
+
+        <button type="submit" class="btn primary">Odeslat dotaz</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3>Help-IN</h3>
+        <p>Sociální služby, poradenství a podpora obyvatelům okresu Bruntál.</p>
+      </div>
+
+      <div>
+        <h4>Služby</h4>
+        <a href="pecovatelska-sluzba.html">Pečovatelská služba</a>
+        <a href="socialni-poradenstvi.html">Sociální poradenství</a>
+        <a href="dluhove-poradenstvi.html">Dluhové poradenství</a>
+        <a href="kompenzacni-pomucky.html">Kompenzační pomůcky</a>
+      </div>
+
+      <div>
+        <h4>Informace</h4>
+        <a href="o-nas.html">O nás</a>
+        <a href="kariera.html">Kariéra</a>
+        <a href="dokumenty.html">Dokumenty</a>
+        <a href="kontakt.html">Kontakt</a>
+      </div>
+
+      <div>
+        <h4>Právní informace</h4>
+        <a href="gdpr.html">Ochrana osobních údajů</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© Help-IN • sociální služby v okrese Bruntál</p>
+    </div>
+  </footer>
+
+  <a href="tel:+420000000000" class="sticky-call">📞 Zavolat Help-IN</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
