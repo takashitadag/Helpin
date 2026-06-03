@@ -1,0 +1,9 @@
+{
+  "name": "Help-IN",
+  "short_name": "Help-IN",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7fafc",
+  "theme_color": "#16406f",
+  "lang": "cs-CZ"
+}
